@@ -20,6 +20,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/layout/header.css" />
+    <link rel="stylesheet" href="./css/base/container.css" />
+    <link rel="stylesheet" href="./css/utils/visually-hidden.css" />
+    <link rel="stylesheet" href="./css/base/common.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -41,6 +45,16 @@
             </li>
           </ul>
         </nav>
+        <button class="mibile-button-menu">
+          <svg
+            class="mobile-menu-icon"
+            width="24"
+            height="24"
+            aria-label="mobile menu open icon"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="header-contact-address">
           <ul class="header-contact list">
             <li>
@@ -60,13 +74,13 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-link-btn" type="button">Order Service</button>
         </div>
-      </section>
-      <section class="advateges">
+      </section> -->
+      <!-- <section class="advateges">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advateges-section list">
@@ -120,9 +134,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="personnel-one">
+      <!-- <section class="personnel-one">
         <div class="container">
           <h2 class="personnel list">Our Team</h2>
           <ul class="personnel-mens list">
@@ -292,8 +306,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="portfolio">
+      </section> -->
+      <!-- <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-servise">Our portfolio</h2>
           <ul class="portfolio-service list">
@@ -419,9 +433,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container">
         <div class="footer-information-container">
           <a class="footer-logotype link" href="./index.html"
@@ -483,8 +497,8 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="modal-container is-open">
+    </footer> -->
+    <!-- <div class="modal-container is-open">
       <div class="modal-window">
         <button class="modal-button-close" type="button">
           <svg width="8" height="8" class="modal-icon-close">
@@ -570,6 +584,14 @@
           <button class="modal-button-send">Send</button>
         </form>
       </div>
+    </div> -->
+    <!-- mobile menu -->
+    <div class="mobile-menu-modal">
+      <button class="mobile-modal-icon-clouse" type="button">
+        <svg width="8" height="8" class="mobile-modal-icon-close">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
     </div>
   </body>
 </html>
