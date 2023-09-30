@@ -1,0 +1,116 @@
+@media screen and (max-width: 767px) {
+  .personnel-one {
+    background-color: #f4f4fd;
+  }
+  .personnel {
+    color: var(--color-navyblue);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    border-radius: 0px 0px 4px 4px;
+  }
+}
+
+/* .personnel-one {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.personnel-one-job {
+  padding: 32px 0;
+}
+.personnel-mens-list {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.personnel-mens-list {
+  border-radius: 0px 0px 4px 4px;
+}
+.personnel-mens {
+  display: flex;
+  gap: 24px;
+}
+.personnel {
+  color: var(--color-navyblue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  margin-bottom: 72px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.personnel-mens {
+  color: var(--color-navyblue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.personnel-mens-name {
+  color: var(--color-navyblue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  text-align: center;
+  margin-bottom: 8px;
+}
+.personnel-mens-job {
+  color: var(--color-slate);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.personnel-social {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
+.personnel-list-icon {
+  width: 40px;
+  height: 40px;
+}
+.personnel-sicial-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.personnel-sicial-link:hover,
+.personnel-sicial-link:focus {
+  background-color: #404bbf;
+}
+.personnel-icon {
+  fill: #f4f4fd;
+} */

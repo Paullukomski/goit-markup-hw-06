@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="./css/utils/visually-hidden.css" />
     <link rel="stylesheet" href="./css/base/common.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/layout/hero.css" />
+    <link rel="stylesheet" href="./css/layout/advantages.css" />
+    <link rel="stylesheet" href="./css/layout/personnel.css" />
   </head>
   <body>
     <header class="header link">
@@ -74,13 +77,15 @@
       </div>
     </header>
     <main>
-      <!-- <section class="hero">
+      <!---------------------  hero --------------------->
+      <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-link-btn" type="button">Order Service</button>
         </div>
-      </section> -->
-      <!-- <section class="advateges">
+      </section>
+      <!------------------advanteges----------------------->
+      <section class="advateges">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advateges-section list">
@@ -134,9 +139,9 @@
             </li>
           </ul>
         </div>
-      </section> -->
-
-      <!-- <section class="personnel-one">
+      </section>
+      <!----------------------------------our yime---------------------------------------------- -->
+      <section class="personnel-one">
         <div class="container">
           <h2 class="personnel list">Our Team</h2>
           <ul class="personnel-mens list">
@@ -306,7 +311,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-servise">Our portfolio</h2>
@@ -498,6 +503,7 @@
         </div>
       </div>
     </footer> -->
+    <!-- ======---------------     modal window     ---------------====== -->
     <!-- <div class="modal-container is-open">
       <div class="modal-window">
         <button class="modal-button-close" type="button">
@@ -586,17 +592,164 @@
       </div>
     </div> -->
     <!-- mobile menu -->
-    <div class="mobile-menu-modal is-open">
-      <button class="mobile-modal-btn-clouse" type="button">
+    <div class="mobile-menu is-open">
+      <button class="mobile-btn-clouse" type="button">
         <svg
           width="8"
           height="8"
-          class="mobile-modal-icon-close"
+          class="mobile-icon-close"
           aria-label="mobile menu close icon"
         >
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
+      <nav>
+        <ul class="mobile-description list">
+          <li class="mobile-item">
+            <a class="mobile-list link" href="./index.html">Studio</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-list link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="mobile-item">
+            <a class="mobile-list link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-contact-address">
+        <ul class="mobile-contact list">
+          <li>
+            <a class="mobile-contact-main link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mobile-contact-main link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="mobile-social list">
+        <li class="mobile-icon-list">
+          <a class="mobile-sicial-link" href="">
+            <svg class="mobile-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use></svg
+          ></a>
+        </li>
+        <li class="mobile-icon-list">
+          <a class="mobile-sicial-link" href="">
+            <svg class="mobile-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-tviter"></use></svg
+          ></a>
+        </li>
+        <li class="mobile-icon-list">
+          <a class="mobile-sicial-link" href="">
+            <svg class="mobile-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebock"></use></svg
+          ></a>
+        </li>
+        <li class="mobile-icon-list">
+          <a class="mobile-sicial-link" href="">
+            <svg class="mobile-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
+    <!-- modal mobile menu -->
+    <div class="modal-mobile-window is-open">
+      <button class="modal-mobile-button-close" type="button">
+        <svg width="8" height="8" class="modal-mobile-icon-close">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p class="modal-mobile-text">
+        Leave your contacts and we will call you back
+      </p>
+      <form
+        class="modal-mobile-form"
+        name="issue_report_form"
+        autocomplete="off"
+      >
+        <div class="modal-mibile-name">
+          <label class="modal-mobile-label" for="user-name"> Name</label>
+          <div class="modal-mobile-input-name">
+            <input
+              id="user-name"
+              class="modal-mobile-input"
+              type="text"
+              name="user-name"
+              placeholder="name"
+              autofocus
+            />
+            <svg class="modal-mobile-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-mobile-name">
+          <label class="modal-mobile-label" for="user-phone"> Phone</label>
+          <div class="modal-mobile-input-name">
+            <input
+              id="user-phone"
+              class="modal-mobile-input"
+              type="tel"
+              name="user-phone"
+              placeholder="phone"
+            /><svg class="modal-mobile-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-mobile-name">
+          <label class="modal-mobile-label" for="user-email">Email</label>
+          <div class="modal-mobile-input-name">
+            <input
+              id="user-email"
+              class="modal-mobile-input"
+              type="email"
+              name="user-email"
+              placeholder="E-mail"
+            /><svg class="modal-mobile-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-mobile-name-comment">
+          <label class="modal-mobile-label" for="user-comment">Comment</label>
+          <textarea
+            class="modal-mobile-textarea"
+            id="user-comment"
+            name="user-comment"
+            rows="5"
+            placeholder="Text input"
+          ></textarea>
+        </div>
+        <div class="modal-mobile-user-checkbox">
+          <input
+            class="visually-hidden input-checked"
+            id="user-privacy"
+            type="checkbox"
+            value="true"
+            name="user-privacy"
+          />
+          <label class="modal-mobile-label-text" for="user-privacy"
+            ><span class="modal-mobile-label-span"
+              ><svg class="modal-mobile-text-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-vector"></use></svg></span
+            >I accept the terms and conditions of the<a
+              href=""
+              class="modal-mobile-link"
+            >
+              Privacy Policy</a
+            ></label
+          >
+        </div>
+        <button class="modal-mobile-button-send">Send</button>
+      </form>
+    </div>
+    <!-- ==========modal  window  tablet========== -->
   </body>
 </html>

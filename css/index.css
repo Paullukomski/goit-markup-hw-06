@@ -2,3 +2,6 @@
 @import "./base/container.css";
 @import "./utils/visually-hidden.css";
 @import "./layout/header.css";
+@import "./layout/hero.css";
+@import "./layout/advantages.css";
+@import "./layout/personnel.css";
