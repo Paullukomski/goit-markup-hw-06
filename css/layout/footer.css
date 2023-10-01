@@ -1,6 +1,9 @@
 @media screen and (max-width: 767px) {
   .footer {
     background: var(--navyblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .footer-logotype {
     color: var(--iris, #4d5ae5);
@@ -11,13 +14,12 @@
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    margin-bottom: 16px;
-    display: inline-block;
+    display: block;
     align-items: center;
-    padding-left: 50%;
-    padding-right: 50%;
     margin-top: 97.5px;
     margin-bottom: 17.5px;
+    justify-content: center;
+    text-align: center;
   }
   .footer-logo-span {
     color: var(--color-cloud);
@@ -41,6 +43,7 @@
     height: 72px;
     margin: 0 16px;
   }
+
   .footer-social-media {
     color: var(--color-white);
     font-family: Roboto;
@@ -51,7 +54,7 @@
     letter-spacing: 0.02em;
     margin-top: 72px;
     margin-bottom: 16px;
-    padding-left: 50%;
+    text-align: center;
   }
   .footer-social {
     display: flex;
@@ -90,6 +93,7 @@
     height: 24px;
     display: block;
     margin: 0 auto;
+    margin-top: 72px;
     margin-bottom: 16px;
   }
   .footer-input {
@@ -100,7 +104,7 @@
     font-weight: 400;
     letter-spacing: 0.04em;
     background: var(--color-navyblue);
-    width: 264px;
+    width: 288px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid var(--white, #fff);
@@ -131,6 +135,10 @@
     height: 40px;
     min-width: 165px;
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 96px;
   }
   .footer-subscribe-icon {
     fill: #f4f4fd;

@@ -7,7 +7,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office/mobile-ofice.jpg);
+      url(../../images/people-office/mobile-ofice.jpg);
     background-size: cover;
   }
   .hero-title {
@@ -19,6 +19,8 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     max-width: 288px;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
   .hero-link-btn {
     color: var(--color-white);
@@ -27,7 +29,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.02em;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -35,6 +37,7 @@
     border-radius: 4px;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 72px;
   }
   .hero-link-btn {
     background-color: #4d5ae5;
@@ -60,7 +63,46 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office/tablet-office.jpg);
+      url(../../images/people-office/tablet-office.jpg);
+  }
+  .hero-title {
+    color: var(--color-white);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-top: 112px;
+    margin-bottom: 36px;
+  }
+  .hero-link-btn {
+    color: var(--color-white);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 36px;
+    margin-bottom: 112px;
+  }
+  .hero-link-btn {
+    background-color: #4d5ae5;
+  }
+  .hero-link-btn:hover,
+  .hero-link-btn:focus {
+    background-color: #404bbf;
   }
 }
 /* .hero {
@@ -89,7 +131,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -101,7 +143,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; 
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   display: block;
   min-width: 169px;
   height: 56px;
