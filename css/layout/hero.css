@@ -44,7 +44,25 @@
     background-color: #404bbf;
   }
 }
-
+@media screen and (min-width: 768px) {
+  .hero {
+    background: var(--navyblue);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 188px 0;
+    max-width: 1440px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    block-size: 100%;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office/tablet-office.jpg);
+  }
+}
 /* .hero {
   background: var(--navyblue);
   margin-left: auto;
