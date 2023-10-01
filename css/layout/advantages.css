@@ -36,8 +36,45 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .advateges {
+    /* height: 504px; */
+    background: #fff;
+  }
   .advateges-link {
     display: none;
+  }
+  .advateges-main {
+    border-radius: 4px;
+  }
+  .advanteges-subtitle {
+    color: var(--navyblue);
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    padding-top: 72px;
+    margin-bottom: 8px;
+  }
+  .advateges-text {
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-bottom: 72px;
+  }
+  .advateges-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .advateges-main {
+    text-decoration: none;
+    width: calc((100% - 72px) / 2);
   }
 }
 
@@ -80,7 +117,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; 
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 .advateges-text {
@@ -90,5 +127,5 @@
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; 
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 } */
