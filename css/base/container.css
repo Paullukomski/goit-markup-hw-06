@@ -19,14 +19,7 @@
 }
 
 @media screen and (min-width: 1158px) {
-  .container {
-    width: 1158px;
-  }
-}
-
-/*! ---------------dextop================== */
-
-/* .container {
+ .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -35,4 +28,10 @@
 .header-container {
   display: flex;
   align-items: center;
-} */
+}
+
+  }
+}
+
+/*! ---------------dextop================== */
+

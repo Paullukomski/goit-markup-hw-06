@@ -54,7 +54,7 @@
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    padding-top: 72px;
+    /* padding-top: 72px; */
     margin-bottom: 8px;
   }
   .advateges-text {
@@ -65,67 +65,70 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 72px;
+    /* padding-bottom: 72px; */
   }
   .advateges-section {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .advateges-main {
     text-decoration: none;
     width: calc((100% - 72px) / 2);
   }
 }
+@media screen and (min-width: 1158px) {
+  .advateges-main {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--color-cloud);
+  }
+  .advateges-link {
+    width: 64px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    margin-left: 100px;
+  }
 
-/* .advateges-main {
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  background: var(--color-cloud);
-}
-.advateges-link {
-  width: 64px;
-  height: 112px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  margin-left: 100px;
-}
+  .advateges {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #fff;
+  }
+  .advateges-section {
+    display: flex;
+    gap: 24px;
+  }
 
-.advateges {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background: #fff;
+  .advateges-main {
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 120px;
+  }
+  .advanteges-subtitle {
+    color: var(--navyblue);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .advateges-text {
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
-.advateges-section {
-  display: flex;
-  gap: 24px;
-}
-
-.advateges-main {
-  width: calc((100% - 72px) / 4);
-  margin-bottom: 120px;
-}
-.advanteges-subtitle {
-  color: var(--navyblue);
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2; 
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-.advateges-text {
-  color: var(--slate);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; 
-  letter-spacing: 0.02em;
-} */
