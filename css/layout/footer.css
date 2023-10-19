@@ -155,12 +155,12 @@
   }
   .footer-container {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: space-evenly;
-    column-gap: 24px;
+    /* column-gap: 24px; */
     /* align-content: start; */
-    align-items: center;
+    /* align-items: center; */
   }
   .footer-logotype {
     color: var(--iris, #4d5ae5);
