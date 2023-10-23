@@ -17,11 +17,11 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-top: 96px;
-    padding-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
   }
   .personnel-mens-list {
     border-radius: 0px 0px 4px 4px;
+    padding-top: 72px;
   }
   .personnel-one-job {
     padding: 32px 0;
@@ -81,6 +81,9 @@
   .personnel-sicial-link:hover,
   .personnel-sicial-link:focus {
     background-color: #404bbf;
+  }
+  .personnel-mens {
+    padding-bottom: 96px;
   }
 }
 
