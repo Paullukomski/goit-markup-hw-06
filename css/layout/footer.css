@@ -290,20 +290,20 @@
 @media screen and (min-width: 1158px) {
   .footer {
     background: var(--navyblue);
-    padding: 100px 0;
+    /* padding-top: 101px;
+    padding-bottom: 100px; */
     display: flex;
   }
   .footer-container {
     width: 1158px;
     padding: 0 15px;
-    margin: 0 auto;
-    align-items: center;
+    /* margin: 0 auto; */
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
   }
   .footer-information-container {
-    margin-right: 120px;
+    padding-left: 120px;
   }
   .footer-logotype {
     color: var(--iris, #4d5ae5);
@@ -342,6 +342,9 @@
     width: 264px;
     height: 72px;
   }
+  .footer-social-container {
+    padding-left: 120px;
+  }
   .footer-social-media {
     color: var(--color-white);
     font-family: Roboto;
@@ -378,7 +381,7 @@
     gap: 16px;
   }
   .subscribe-container {
-    margin-left: 80px;
+    padding-left: 80px;
   }
   .footer-subscribe {
     color: var(--color-white);
