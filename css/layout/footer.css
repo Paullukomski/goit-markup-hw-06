@@ -295,12 +295,13 @@
     display: flex;
   }
   .footer-container {
-    width: 1158px;
+    width: 1440px;
     padding: 0 15px;
     /* margin: 0 auto; */
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
+    padding-left: 156px;
   }
   .footer-information-container {
     padding-left: 120px;
