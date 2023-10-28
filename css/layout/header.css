@@ -6,11 +6,12 @@
     display: none;
   }
 }
-
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 .header-logo {
@@ -106,6 +107,9 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
+  }
+  .header-contact-link {
+    padding-top: 12px;
   }
   .header-contact-address {
     font-style: normal;

@@ -14,10 +14,11 @@
     color: var(--color-white);
     text-align: center;
     font-family: Roboto;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     max-width: 288px;
     padding-top: 72px;
     padding-bottom: 72px;
@@ -30,8 +31,7 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* display: block; */
-    position: relative;
+    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -39,10 +39,6 @@
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 72px;
-    margin-left: 50%;
-    margin-right: 50%;
-    justify-content: center;
-    align-items: center;
   }
   .hero-link-btn {
     background-color: #4d5ae5;
