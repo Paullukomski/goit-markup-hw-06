@@ -23,7 +23,7 @@
   line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 16px;
+  padding-right: 16px;
 }
 .header-logo-span {
   color: var(--navyblue);
@@ -71,7 +71,7 @@
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 16px;
+    padding-right: 16px;
   }
   .header-logo-span {
     color: var(--navyblue);
@@ -108,18 +108,18 @@
     letter-spacing: 0.02em;
     display: block;
   }
-  .header-contact-link {
-    padding-top: 12px;
-  }
+
   .header-contact-address {
     font-style: normal;
-    margin-left: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
   }
   .header-description {
     display: flex;
     gap: 40px;
     justify-content: center;
-    margin-left: 120px;
+    padding-left: 120px;
     text-align: center;
   }
   .header-contact-main {
