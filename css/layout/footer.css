@@ -156,12 +156,10 @@
     display: flex;
     gap: 48px 24px;
     align-items: baseline;
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
-    /* column-gap: 24px; */
-    /* align-content: start; */
-    /* align-items: center; */
+    padding-left: 108px;
+    padding-right: 164px;
   }
   .footer-logotype {
     color: var(--iris, #4d5ae5);

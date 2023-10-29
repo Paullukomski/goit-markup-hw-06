@@ -71,7 +71,7 @@
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-right: 16px;
+    padding-right: 120px;
   }
   .header-logo-span {
     color: var(--navyblue);
@@ -119,7 +119,7 @@
     display: flex;
     gap: 40px;
     justify-content: center;
-    padding-left: 120px;
+    /* padding-left: 120px; */
     text-align: center;
   }
   .header-contact-main {
@@ -165,7 +165,7 @@
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+    padding-right: 76px;
   }
   .heder-item {
     color: var(--navyblue);
