@@ -55,7 +55,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     /* padding-top: 72px; */
-    margin-bottom: 8px;
+    padding-bottom: 8px;
   }
   .advateges-text {
     color: var(--slate);
@@ -86,6 +86,9 @@
     border-radius: 4px;
     background: var(--color-cloud);
   }
+  .advateges {
+    padding-bottom: 120px;
+  }
   .advateges-link {
     width: 64px;
     height: 112px;
@@ -108,7 +111,6 @@
 
   .advateges-main {
     width: calc((100% - 72px) / 4);
-    margin-bottom: 120px;
   }
   .advanteges-subtitle {
     color: var(--navyblue);
@@ -118,7 +120,8 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   .advateges-text {
     color: var(--slate);
