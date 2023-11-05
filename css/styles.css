@@ -273,7 +273,7 @@
   .modal-link {
     color: #4d5ae5;
   }
-  .input-mobile-checked:checked + .modal-label-text > .modal-label-span {
+  .input-checked:checked + .modal-label-text > .modal-label-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
