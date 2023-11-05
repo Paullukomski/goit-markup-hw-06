@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px) {
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .portfolio-servise {
     color: var(--color-navyblue);
     text-align: center;
@@ -9,11 +13,7 @@
     line-height: 1.111;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-top: 96px;
-    padding-bottom: 72px;
-  }
-  .portfolio-service {
-    padding-bottom: 96px;
+    margin-bottom: 72px;
   }
   .portfolio-text {
     display: none;
@@ -25,7 +25,10 @@
     border-top: none;
   }
   .portfolio-job {
-    padding-top: 48px;
+    margin-bottom: 48px;
+  }
+  .portfolio-job:last-child {
+    margin: 0 auto;
   }
   .portfolio-link-photo {
     position: relative;
@@ -38,6 +41,7 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
   }
   .portfolio-mens-photo {
     width: 288px;

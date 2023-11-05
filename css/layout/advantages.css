@@ -1,10 +1,10 @@
 @media screen and (max-width: 767px) {
-  .advateges-icon {
+  .advateges-link {
     display: none;
   }
   .advateges {
-    margin-top: 96px;
-    margin-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .advanteges-subtitle {
     color: var(--navyblue);
@@ -13,10 +13,10 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 0.01;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-top: 72px;
+    margin-bottom: 8px;
   }
   .advateges-text {
     color: var(--color-slate);
@@ -26,14 +26,17 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 18px;
   }
-  /* .advateges-main {
-    top: 72px;
+  .advateges-main {
+    margin-bottom: 72px;
+    /* top: 72px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 4px;
-  } */
+    border-radius: 4px; */
+  }
+  .advateges-main:last-child {
+    margin: 0 auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .advateges {

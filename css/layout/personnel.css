@@ -1,6 +1,8 @@
 @media screen and (max-width: 767px) {
   .personnel-one {
     background-color: #f4f4fd;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .personnel-mens-photo {
     width: 264px;
@@ -16,12 +18,15 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 96px;
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 96px;
   }
   .personnel-mens-list {
     border-radius: 0px 0px 4px 4px;
-    padding-top: 72px;
+    margin-bottom: 72px;
+  }
+  .personnel-mens-list:last-child {
+    margin: 0 auto;
   }
   .personnel-one-job {
     padding: 32px 0;
@@ -37,7 +42,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
   .personnel-mens-job {
     color: var(--color-slate);
@@ -49,8 +54,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
   .personnel-social {
     justify-content: center;
@@ -81,9 +85,6 @@
   .personnel-sicial-link:hover,
   .personnel-sicial-link:focus {
     background-color: #404bbf;
-  }
-  .personnel-mens {
-    padding-bottom: 96px;
   }
 }
 
