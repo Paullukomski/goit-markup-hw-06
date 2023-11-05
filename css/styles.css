@@ -252,6 +252,9 @@
     letter-spacing: 0.04em;
     color: var(--color-light-slate);
   }
+  .modal-user-checkbox {
+    margin-bottom: 24px;
+  }
   .modal-label-span {
     width: 16px;
     height: 16px;
