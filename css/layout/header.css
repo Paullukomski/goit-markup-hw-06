@@ -71,7 +71,6 @@
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-right: 120px;
   }
   .header-logo-span {
     color: var(--navyblue);
@@ -111,15 +110,15 @@
 
   .header-contact-address {
     font-style: normal;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
   }
   .header-description {
     display: flex;
     gap: 40px;
     justify-content: center;
-    /* padding-left: 120px; */
+    margin-left: 120px;
     text-align: center;
   }
   .header-contact-main {
@@ -165,7 +164,6 @@
     line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-right: 76px;
   }
   .heder-item {
     color: var(--navyblue);
@@ -206,6 +204,7 @@
     color: #404bbf;
   }
   .header-description {
+    margin-left: 76px;
     display: flex;
     gap: 40px;
   }

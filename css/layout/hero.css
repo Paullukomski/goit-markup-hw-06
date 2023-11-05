@@ -22,10 +22,9 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     display: block;
-    width: 250px;
+    width: 288px;
     margin: 0 auto;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .hero-link-btn {
     color: var(--color-white);
@@ -137,8 +136,6 @@
     max-width: 496px;
     display: block;
     margin: 0 auto;
-    /* padding-top: 188px;
-    padding-bottom: 48px; */
   }
   .hero-link-btn {
     color: var(--color-white);

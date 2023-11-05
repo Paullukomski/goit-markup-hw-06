@@ -53,6 +53,10 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .portfolio-servise {
     color: var(--color-navyblue);
     text-align: center;
@@ -63,15 +67,13 @@
     line-height: 1.111;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .portfolio-service {
     column-gap: 24px;
     row-gap: 72px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 96px;
   }
   .portfolio-text {
     display: none;
@@ -98,7 +100,7 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
   .service-text {
     color: var(--color-slate);
@@ -111,12 +113,15 @@
   }
 }
 @media screen and (min-width: 1158px) {
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .portfolio-service {
     column-gap: 24px;
     row-gap: 48px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 120px;
   }
   .portfolio-servise {
     color: var(--color-navyblue);
@@ -128,8 +133,7 @@
     line-height: 1.111;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .portfolio-job:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -174,14 +178,13 @@
   }
   .service-subtitle {
     color: var(--navyblue);
-
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
   .service-text {
     color: var(--color-slate);

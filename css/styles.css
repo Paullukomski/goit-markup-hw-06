@@ -236,7 +236,7 @@
     padding: 0;
     line-height: 0;
     stroke: #2f2f37;
-    padding-left: 149px;
+    margin-left: auto;
   }
   .mibile-button-menu:hover,
   .mibile-button-menu:focus {

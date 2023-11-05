@@ -45,6 +45,9 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
 }
-.personnel-mens-photo {
+button {
+  cursor: pointer;
+}
+img {
   display: block;
 }

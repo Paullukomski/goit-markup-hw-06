@@ -2,7 +2,7 @@
   .advateges-icon {
     display: none;
   }
-  .advateges-section {
+  .advateges {
     margin-top: 96px;
     margin-bottom: 96px;
   }
@@ -28,23 +28,21 @@
     letter-spacing: 0.02em;
     padding-top: 18px;
   }
-  .advateges-main {
+  /* .advateges-main {
     top: 72px;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 4px;
-  }
+  } */
 }
 @media screen and (min-width: 768px) {
   .advateges {
-    /* height: 504px; */
     background: #fff;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .advateges-link {
     display: none;
-  }
-  .advateges-main {
-    border-radius: 4px;
   }
   .advanteges-subtitle {
     color: var(--navyblue);
@@ -54,8 +52,7 @@
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    /* padding-top: 72px; */
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
   .advateges-text {
     color: var(--slate);
@@ -65,14 +62,11 @@
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* padding-bottom: 72px; */
   }
   .advateges-section {
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
-    padding-top: 96px;
-    padding-bottom: 96px;
   }
   .advateges-main {
     text-decoration: none;
@@ -81,24 +75,23 @@
 }
 @media screen and (min-width: 1158px) {
   .advateges-main {
-    width: 264px;
-    height: 112px;
     border-radius: 4px;
-    background: var(--color-cloud);
+    width: calc((100% - 72px) / 4);
   }
   .advateges {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
   .advateges-link {
-    width: 64px;
     height: 112px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f4f4fd;
     border-radius: 4px;
+    margin: 0 auto;
     margin-bottom: 8px;
-    margin-left: 100px;
+    background: var(--color-cloud);
   }
 
   .advateges {
@@ -109,9 +102,6 @@
     gap: 24px;
   }
 
-  .advateges-main {
-    width: calc((100% - 72px) / 4);
-  }
   .advanteges-subtitle {
     color: var(--navyblue);
     font-family: Roboto;
@@ -120,8 +110,7 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
   .advateges-text {
     color: var(--slate);
